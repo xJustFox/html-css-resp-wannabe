@@ -134,3 +134,31 @@ img {
         width: 100%;
     }
 }
+
+/* Mobile 480px */
+@media screen and (max-width: 480px){
+    body{
+        background: linear-gradient(#232946, #222222);
+    }
+    .container{
+        width: 375px;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col{
+        width: 100%;
+    }
+
+    .why-us .col-left img{
+        margin-bottom: 5rem;
+    }
+
+    .text{
+        margin-bottom: 3rem;
+    }
+}
