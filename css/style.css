@@ -147,8 +147,9 @@ img {
     body{
         background: linear-gradient(#232946, #222222);
     }
+    
     .container{
-        width: 375px;
+        width: 360px;
     }
 
     .row{
