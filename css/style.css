@@ -148,10 +148,6 @@ img {
         background: linear-gradient(#232946, #222222);
     }
     
-    .container{
-        width: 360px;
-    }
-
     .row{
         flex-wrap: wrap;
     }
@@ -160,13 +156,16 @@ img {
     .steps .col,
     .why-us .col{
         width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .lessons .col:last-child,
+    .steps .col:last-child,
+    .why-us .col:last-child{
+        margin-bottom: 0px;
     }
 
     .why-us .col-left img{
         margin-bottom: 5rem;
-    }
-
-    .text{
-        margin-bottom: 3rem;
     }
 }
